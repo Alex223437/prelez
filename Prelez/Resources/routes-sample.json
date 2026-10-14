@@ -1,0 +1,40 @@
+{
+  "gym": "Vertikon Zlín",
+  "capturedAt": "2026-10-14",
+  "source": "UKÁZKOVÁ DATA – vymyšlené cesty, nahradit exportem od stavěčů",
+  "sectors": [
+    { "id": "previs", "name": "Převis", "aliases": ["převis", "overhang"] },
+    { "id": "kolmice", "name": "Kolmice", "aliases": ["kolmice", "kolmá", "vertical"] },
+    { "id": "plotna", "name": "Plotna", "aliases": ["plotna", "slab"] },
+    { "id": "sloup", "name": "Sloup", "aliases": ["sloup", "column", "pillar"] },
+    { "id": "boulderovna", "name": "Boulderovna", "aliases": ["boulderovna", "bouldrovka"] },
+    { "id": "venku", "name": "Boulder venku", "aliases": ["venku", "venkovní", "outside", "outdoor"] }
+  ],
+  "routes": [
+    { "id": "R-01", "kind": "route", "grade": "6c", "color": "yellow", "sector": "previs", "number": 12, "name": "Žlutá ponorka", "setter": "Pepa", "setDate": "2026-09-20", "tags": ["lišty"] },
+    { "id": "R-02", "kind": "route", "grade": "6a+", "color": "yellow", "sector": "kolmice", "number": 4, "setter": "Lucka", "setDate": "2026-09-12" },
+    { "id": "R-03", "kind": "route", "grade": "7a", "color": "blue", "sector": "previs", "number": 14, "name": "Modrý kocour", "setter": "Tomáš", "setDate": "2026-09-27", "tags": ["oblé", "dlouhá"] },
+    { "id": "R-04", "kind": "route", "grade": "6b", "color": "blue", "sector": "plotna", "number": 21, "setter": "Lucka", "setDate": "2026-08-30", "tags": ["technická"] },
+    { "id": "R-05", "kind": "route", "grade": "6b", "color": "red", "sector": "kolmice", "number": 6, "setter": "Vojta", "setDate": "2026-09-05" },
+    { "id": "R-06", "kind": "route", "grade": "7a", "color": "grey", "sector": "previs", "number": 15, "setter": "Vojta", "setDate": "2026-10-02", "tags": ["dyno"] },
+    { "id": "R-07", "kind": "route", "grade": "7b", "color": "black", "sector": "previs", "number": 16, "name": "Noční můra", "setter": "Tomáš", "setDate": "2026-09-18", "tags": ["lišty", "silová"] },
+    { "id": "R-08", "kind": "route", "grade": "5c", "color": "green", "sector": "plotna", "number": 22, "setter": "Lucka", "setDate": "2026-09-01" },
+    { "id": "R-09", "kind": "route", "grade": "6a", "color": "orange", "sector": "kolmice", "number": 7, "setter": "Pepa", "setDate": "2026-09-08" },
+    { "id": "R-10", "kind": "route", "grade": "6c+", "color": "purple", "sector": "sloup", "number": 30, "setter": "Vojta", "setDate": "2026-09-25" },
+    { "id": "R-11", "kind": "route", "grade": "5a", "color": "white", "sector": "plotna", "number": 23, "setter": "Lucka", "setDate": "2026-08-28" },
+    { "id": "R-12", "kind": "route", "grade": "4c", "color": "pink", "sector": "sloup", "number": 31, "setter": "Lucka", "setDate": "2026-09-03" },
+    { "id": "R-13", "kind": "route", "grade": "6b", "color": "green", "sector": "sloup", "number": 32, "name": "Zelený čaj", "setter": "Pepa", "setDate": "2026-10-10" },
+    { "id": "R-14", "kind": "route", "grade": "7a+", "color": "red", "sector": "previs", "number": 17, "setter": "Tomáš", "setDate": "2026-09-30", "tags": ["oblé"] },
+    { "id": "R-15", "kind": "route", "grade": "6a", "color": "turquoise", "sector": "kolmice", "number": 8, "setter": "Vojta", "setDate": "2026-09-14" },
+    { "id": "R-16", "kind": "route", "grade": "5c+", "color": "brown", "sector": "plotna", "number": 24, "setter": "Pepa", "setDate": "2026-09-02" },
+
+    { "id": "B-01", "kind": "boulder", "grade": "6C", "color": "yellow", "sector": "venku", "setter": "Tomáš", "setDate": "2026-09-22", "tags": ["dyno"] },
+    { "id": "B-02", "kind": "boulder", "grade": "6B", "color": "red", "sector": "venku", "setter": "Vojta", "setDate": "2026-09-22", "tags": ["oblé"] },
+    { "id": "B-03", "kind": "boulder", "grade": "7A", "color": "black", "sector": "boulderovna", "setter": "Tomáš", "setDate": "2026-10-01", "tags": ["lišty"] },
+    { "id": "B-04", "kind": "boulder", "grade": "5+", "color": "green", "sector": "boulderovna", "setter": "Lucka", "setDate": "2026-09-15" },
+    { "id": "B-05", "kind": "boulder", "grade": "6B", "color": "yellow", "sector": "boulderovna", "setter": "Pepa", "setDate": "2026-09-29", "tags": ["koordinační"] },
+    { "id": "B-06", "kind": "boulder", "grade": "6A+", "color": "purple", "sector": "boulderovna", "setter": "Lucka", "setDate": "2026-10-05" },
+    { "id": "B-07", "kind": "boulder", "grade": "7B", "color": "blue", "sector": "venku", "setter": "Vojta", "setDate": "2026-09-26", "tags": ["převislý"] },
+    { "id": "B-08", "kind": "boulder", "grade": "6C+", "color": "white", "sector": "boulderovna", "setter": "Tomáš", "setDate": "2026-10-06" }
+  ]
+}
